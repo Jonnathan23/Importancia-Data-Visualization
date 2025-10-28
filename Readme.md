@@ -4,18 +4,17 @@
  **Estudiante:** Jonnathan Saquicela
 
 
-# Introducción al Cuarteto Anscombe
-# El Cuarteto de Anscombe: Una Introducción Teórica
+## Introducción al Cuarteto Anscombe
+### El Cuarteto de Anscombe: Una Introducción Teórica
 
-## ¿Qué es el Cuarteto de Anscombe?
+### ¿Qué es el Cuarteto de Anscombe?
 
 El **Cuarteto de Anscombe** es un conjunto de cuatro *datasets* (conjuntos de datos), cada uno compuesto por 11 pares de coordenadas (x, y). Fue creado en 1973 por el estadístico británico **Francis Anscombe**.
 
 Su propósito fundamental es servir como una demostración pedagógica y una advertencia sobre las limitaciones de las estadísticas descriptivas simples y la importancia crítica de la **visualización de datos**.
 
----
 
-## La Paradoja: Estadísticas Idénticas, Gráficos Distintos
+### La Paradoja: Estadísticas Idénticas, Gráficos Distintos
 
 La genialidad del cuarteto radica en que los cuatro conjuntos de datos son, desde un punto de vista estadístico-descriptivo, **casi idénticos**.
 
@@ -33,13 +32,13 @@ Basándose únicamente en estos números, un analista podría concluir erróneam
 
 ---
 
-## La Revelación: El Poder de la Visualización
+### La Revelación: El Poder de la Visualización
 
 El "engaño" se revela en el momento en que los datos se grafican. A pesar de sus estadísticas idénticas, los gráficos de dispersión (scatter plots) de cada conjunto son drásticamente diferentes.
 
 
 
-### Descripción de cada Dataset
+#### Descripción de cada Dataset
 
 * **Dataset I:**
     * **Apariencia:** Es el "caso esperado". Muestra una nube de puntos razonablemente lineal, con una clara correlación positiva. La línea de regresión describe bien la tendencia general.
@@ -56,9 +55,8 @@ El "engaño" se revela en el momento en que los datos se grafican. A pesar de su
     * **Apariencia:** Es un caso extremo. 10 de los 11 puntos comparten el mismo valor de X (x=8), y un solo punto es un **punto de palanca (leverage point)** con un valor de X muy diferente (x=19).
     * **Lección:** Este único punto atípico en el eje X define por sí solo la pendiente de la línea de regresión. Sin él, la correlación sería indefinida (ya que no habría varianza en X).
 
----
 
-## Conclusión e Impacto
+### Conclusión e Impacto
 
 La lección principal del Cuarteto de Anscombe se resume en una frase:
 
@@ -74,10 +72,10 @@ Este concepto ha sido tan influyente que inspiró creaciones modernas como el **
 
 
 ----
-# Resultados 
+## Resultados 
 
 ### Visualización de los datos
-El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuación los primeros 10 datos:
+El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuación los primeros 10 datos, del archivo ![showDataset](src/showDataset.r):
 
 | Nº | dataset |   x   |   y   |
 |----|----------|-------|-------|
@@ -95,9 +93,9 @@ El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuació
 
 ### Gráficas de los datos
 
-A continuación la proyección de una gráfica acerca de los datos.
+A continuación la proyección de una gráfica acerca de los datos. Gráfica generada del archivo ![showDataset](src/showDataset.r)
 <img src="assets/img/CyrcleGrafic.png" alt="imagen" width="400">
 
-A continuación la imagen acerca de los datos más la proyección lineal.
+A continuación la imagen acerca de los datos más la proyección lineal. Gráfica generada del archivo ![showDataset](src/showGrafics.r)
 
 <img src="assets/img/LinealRegresion.png" alt="imagen" width="400">
