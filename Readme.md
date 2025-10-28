@@ -75,7 +75,7 @@ Este concepto ha sido tan influyente que inspiró creaciones modernas como el **
 ## Resultados 
 
 ### Visualización de los datos
-El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuación los primeros 10 datos, del archivo ![showDataset](src/showDataset.r):
+El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuación los primeros 10 datos, del archivo [showDataset](src/showDataset.r):
 
 | Nº | dataset |   x   |   y   |
 |----|----------|-------|-------|
@@ -93,9 +93,9 @@ El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuació
 
 ### Gráficas de los datos
 
-A continuación la proyección de una gráfica acerca de los datos. Gráfica generada del archivo ![showDataset](src/showDataset.r)
+A continuación la proyección de una gráfica acerca de los datos. Gráfica generada del archivo [showDataset](src/showDataset.r)
 <img src="assets/img/CyrcleGrafic.png" alt="imagen" width="400">
 
-A continuación la imagen acerca de los datos más la proyección lineal. Gráfica generada del archivo ![showDataset](src/showGrafics.r)
+A continuación la imagen acerca de los datos más la proyección lineal. Gráfica generada del archivo [showDataset](src/showGrafics.r)
 
 <img src="assets/img/LinealRegresion.png" alt="imagen" width="400">
