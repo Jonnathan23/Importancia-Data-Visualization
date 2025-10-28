@@ -96,6 +96,6 @@ El repositorio que me toco visualizar sus datos es el ``cyrcle``, a continuació
 A continuación la proyección de una gráfica acerca de los datos. Gráfica generada del archivo [showDataset](src/showDataset.r)
 <img src="assets/img/CyrcleGrafic.png" alt="imagen" width="400">
 
-A continuación la imagen acerca de los datos más la proyección lineal. Gráfica generada del archivo [showDataset](src/showGrafics.r)
+A continuación la imagen acerca de los datos más la proyección lineal. Gráfica generada del archivo [showGrafics](src/showGrafics.r)
 
 <img src="assets/img/LinealRegresion.png" alt="imagen" width="400">
