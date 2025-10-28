@@ -5,8 +5,6 @@
 
 
 ## Introducción al Cuarteto Anscombe
-### El Cuarteto de Anscombe: Una Introducción Teórica
-
 ### ¿Qué es el Cuarteto de Anscombe?
 
 El **Cuarteto de Anscombe** es un conjunto de cuatro *datasets* (conjuntos de datos), cada uno compuesto por 11 pares de coordenadas (x, y). Fue creado en 1973 por el estadístico británico **Francis Anscombe**.
